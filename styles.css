@@ -1,0 +1,18 @@
+.square {
+    border: 1px solid rgba(0, 0, 0, 0.554);
+    box-sizing: border-box;
+    }
+    
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    padding: 0;
+    margin: 0;
+    border: 5px red solid;
+    }
+    
+    .hovered-square {
+    background-color: black;
+    }
