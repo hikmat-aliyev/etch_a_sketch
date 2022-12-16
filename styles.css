@@ -20,9 +20,8 @@ body {
     margin: 0;
     align-self: center;
     background-color: aliceblue;
-    border: black 5px solid;
+    border: black 3px solid;
     border-radius: 10px;
-    box-shadow: 5px 10px;
 }
     
 
@@ -56,6 +55,11 @@ button {
 
 }
 
+button:hover {
+    width: 184px;
+    height: 44px;
+}
+
 input {
     width: 172px;
     height: 40px;
@@ -80,6 +84,11 @@ input {
     height: 40px;
 }
 
+.ok-button:hover {
+    height: 42px;
+    width: 52px;
+}
+
 #color-input {
     width: 130px;
 }
@@ -99,4 +108,10 @@ p {
     font-size: 15px;
     margin-top: 4px;
 
+}
+
+footer {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
 }
