@@ -9,8 +9,25 @@
 <script src="script.js" defer=""></script>
 </head>
 <body>
-<div class="container"></div>
-<input type="text" placeholder="Enter number of squares you want" id="myInput">
-<button type="button" onclick="changeBoxSize() ;">Get Value</button>
+    
+    <div class="sketch">    
+        <h1>Etch-a-sketch</h1>  
+        <div class="container"></div>   
+    </div>
+
+    <div class="menu">
+        <div class="color-div">
+            <input type="color" id ="color-input">     
+            <button class="ok-button" onclick="changeColor()">Ok</button>  
+        </div>
+        <button class="rainbow" onclick="rainbow()">Rainbow</button>
+        <button class="eraser" onclick="eraser()">Eraser</button>
+        <button type="button" onclick="cleanColor()">Clear</button>
+        <div class="desired-square">
+            <input type="text" placeholder="Number of square" id="myInput">
+            <button type="button" class="ok-button" onclick="changeBoxSize();">Ok</button>
+        </div>
+        <p></p>
+    </div>
 </body>
 </html>

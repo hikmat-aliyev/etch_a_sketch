@@ -1,18 +1,102 @@
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    justify-content: center;
+    background-color: beige;
+}
+
 .square {
-    border: 1px solid rgba(0, 0, 0, 0.554);
+    border: 1px solid rgba(0, 0, 0, 0.368);
     box-sizing: border-box;
-    }
+}
     
-    .container {
+.container {
     display: flex;
     flex-wrap: wrap;
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     padding: 0;
     margin: 0;
-    border: 5px red solid;
-    }
+    align-self: center;
+    background-color: aliceblue;
+    border: black 5px solid;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+}
     
-    .hovered-square {
-    background-color: black;
-    }
+
+
+
+h1 {
+        font-family: monospace, sans-serif;
+        font-weight: bold;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 5px;
+}
+
+.menu {
+        display: flex;
+        flex-direction: column;
+}
+
+.sketch {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: monospace, sans-serif;
+
+}
+
+input {
+    width: 172px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.menu {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-div {
+    display: flex;
+}
+
+.ok-button {
+    width: 50px;
+    height: 40px;
+}
+
+#color-input {
+    width: 130px;
+}
+
+.desired-square {
+    display: flex;
+    align-items: center;
+}
+
+#myInput {
+    width: 130px;
+    height: 40px;
+}
+
+p {
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+    margin-top: 4px;
+
+}
